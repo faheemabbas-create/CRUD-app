@@ -7,7 +7,7 @@
   },
   "item": [
     {
-      "name": "Health Check",
+      "name": "check api working",
       "request": {
         "method": "GET",
         "header": [],
@@ -38,7 +38,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\"name\": \"Alice Example\", \"email\": \"alice@example.com\"}"
+          "raw": "{\"name\": \"faheem abbas \", \"email\": \"faheem@example.com\"}"
         },
         "url": {
           "raw": "http://localhost:3000/api/users",
@@ -107,7 +107,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\"name\": \"Alice Updated\", \"email\": \"alice.updated@example.com\"}"
+          "raw": "{\"name\": \"faheem Updated\", \"email\": \"faheem.updated@example.com\"}"
         },
         "url": {
           "raw": "http://localhost:3000/api/users/:id",
